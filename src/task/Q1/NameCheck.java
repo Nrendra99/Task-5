@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class NameCheck {
     public static void main(String[] args) {
         // List of student names
-        List<String> studentNames = Arrays.asList("Alice", "Bob", "Andrew", "Catherine", "Aiden", "David", "Ava", "Brian", "Alex", "Diana");
+        List<String> studentNames = Arrays.asList("Aditya", "Akash", "Anushka", "Surya", "Deepika", "Lakshanya");
 
         // Using stream() to filter names starting with 'A' and collect them into a list
         List<String> namesStartingWithA = studentNames.stream()

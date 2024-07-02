@@ -9,12 +9,12 @@ public class ToCaps {
         // Given list of strings in a Stream
         Stream<String> names = Stream.of("aBc", "d", "ef");
 
-        // Using map() method to convert each string in the stream to uppercase
+        // Using map() method to convert each string in the stream to upper-case
         List<String> upperCaseNames = names
-            .map(String::toUpperCase) // Convert each string to uppercase
+            .map(String::toUpperCase) // Convert each string to upper-case
             .collect(Collectors.toList()); // Collect the results into a List
 
         // Print the resulting list
         upperCaseNames.forEach(System.out::println); // Output each string in the list
     }
-}
+} 
